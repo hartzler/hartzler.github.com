@@ -1,6 +1,6 @@
 +++
 date = "2014-12-12T08:50:11-06:00"
-draft = true
+draft = false
 title = "Retry with Timeout"
 tags = ["code", "go"]
 +++
