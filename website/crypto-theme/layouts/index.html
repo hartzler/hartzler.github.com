@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<article class="container">
+  {{ range where .Data.Pages "section" "blog" }}
+    {{ .Render "list" }}
+  {{ end }}
+</article>
+
+{{ partial "footer.html" . }}

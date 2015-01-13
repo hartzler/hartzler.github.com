@@ -1,0 +1,6 @@
+author = "Matt Hartzler"
+description = ""
+license = "MIT"
+name = "crypto"
+source_repo = ""
+tags = ["crypto", "panic"]

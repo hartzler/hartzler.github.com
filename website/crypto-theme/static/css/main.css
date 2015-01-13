@@ -1,0 +1,33 @@
+article {
+  padding-right: 28px;
+  padding-bottom: 30px;
+}
+article .meta {
+  position: absolute;
+  margin-left: -90px;
+  border-right: 1px dotted lightgray;
+  padding-top: 6px;
+  width: 70px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+article .meta .month {
+  font-size: 18px;
+  line-height: 15px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+article .meta .day {
+  display: block;
+  line-height: 32px;
+  font-size: 30px;
+  text-align: center;
+}
+article .meta .year {
+  font-size: 14px;
+  line-height: 15px;
+  color: lightgray;
+  display: block;
+  text-align: center;
+}

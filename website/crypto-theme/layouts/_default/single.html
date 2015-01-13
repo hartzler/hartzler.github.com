@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+{{ if isset .Params "cover_image" }}
+<div class="article-cover">
+    <div>
+        <img src="/images/{{ .Params.cover_image }}" class="image">
+    </div>
+</div>
+{{ end }}
+
+<article>
+    <div class="container">
+        <header>
+            <h1 class="title">{{ .Title }}</h1>
+            <h2 class="subtitle">{{ .Description }}</h2>
+            <div class="meta">
+                <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
+            </div>
+        </header>
+
+        <section>
+            {{ .Content }}
+        </section>
+
+        <footer>
+        </footer>
+
+    </div>
+</article>
+
+{{ partial "footer.html" . }}
